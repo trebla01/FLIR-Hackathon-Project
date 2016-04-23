@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:5:5-44:19
+MERGED from [:flironesdk:] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\flironesdk\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:8:9-41
+	android:versionName
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:11:9-34
+	android:versionCode
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:10:9-32
+	android:allowBackup
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.flir.flironeexampleapplication.EditorActivity
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:12:9-22:20
+	android:screenOrientation
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:12:19-49
+intent-filter#android.intent.action.EDIT+android.intent.action.PICK+android.intent.action.SEND+android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:14:13-21:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:15:25-66
+action#android.intent.action.EDIT
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:16:25-66
+action#android.intent.action.PICK
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:17:25-66
+action#android.intent.action.SEND
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:19:27-73
+data
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:20:17-55
+	android:mimeType
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:20:23-52
+activity#com.flir.flironeexampleapplication.PreviewActivity
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:23:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:25:13-49
+	android:label
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:27:13-45
+	android:launchMode
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:28:13-44
+	android:configChanges
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:29:13-51
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:24:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:33:27-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:45:5-80
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:45:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:46:5-66
+	android:name
+		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:46:22-64
+uses-sdk
+INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:flironesdk:] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\flironesdk\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml

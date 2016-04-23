@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sampleframes.zip",
+        "source": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\raw\\sampleframes.zip"
+    },
+    {
+        "merged": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\default_camera_files.zip",
+        "source": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\flironesdk\\res\\raw\\default_camera_files.zip"
+    }
+]
