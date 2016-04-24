@@ -17,8 +17,9 @@ application
 ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [:flironesdk:] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\flironesdk\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml:8:9-41
 	android:versionName
@@ -99,8 +100,9 @@ uses-sdk
 INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [:flironesdk:] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\flironesdk\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.0.0] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Albert\Documents\Programming imports\FLIROneSDKBundle\FLIRONEExampleApplication\app\src\main\AndroidManifest.xml

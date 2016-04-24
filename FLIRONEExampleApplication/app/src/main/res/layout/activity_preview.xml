@@ -29,6 +29,7 @@
             android:layout_gravity="top|center_horizontal" android:orientation="horizontal"
             tools:ignore="UselessParent"
             android:background="@color/black_overlay">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,22 +63,23 @@
 
             <ToggleButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:text="Cable"
                 android:id="@+id/chargeCableToggle"
                 android:layout_weight="0.10"
                 android:checked="false"
-                android:visibility="invisible"
                 android:onClick="onSimulatedChargeCableToggleClicked" />
 
-            <Button
+            <ToggleButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
+                android:textOff="Select\nArea"
+                android:textOn="Select\nArea"
                 android:id="@+id/selectAreaButton"
-                style="?metaButtonBarButtonStyle"
-                android:text="Select\nArea"
+                android:layout_weight="0.10"
+                android:checked="false"
                 android:onClick="onAreaButtonClicked"
-                android:textSize="12dp" />
+                android:textSize="12dp"/>
 
             <Button
                 android:layout_width="51dp" style="?metaButtonBarButtonStyle"
@@ -141,16 +143,20 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:clickable="true"
                     android:dividerHeight="0dp" />
+
             </LinearLayout>
 
-            <ImageButton style="?metaButtonBarButtonStyle"
+            <ToggleButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton"
+                android:textOff="Record"
+                android:textOn="Record"
+                android:id="@+id/recordButton"
                 android:layout_weight="0.33"
+                android:checked="false"
                 android:onClick="onCaptureImageClicked"
-                android:src="@android:drawable/ic_menu_camera"
                 android:layout_gravity="center_horizontal|bottom" />
+
 
             <ToggleButton android:id="@+id/change_view_button" style="?metaButtonBarButtonStyle"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -159,13 +165,25 @@
                 android:onClick="onChangeViewClicked"
                 android:layout_gravity="bottom|left" />
 
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                android:id="@+id/graph_button"
+                android:onClick="show_graph"
+                />
+
             <Button
                 android:layout_width="wrap_content" style="?metaButtonBarButtonStyle"
                 android:layout_height="wrap_content"
                 android:text="@string/connectSim"
                 android:id="@+id/connect_sim_button"
                 android:onClick="onConnectSimClicked"
-                android:layout_gravity="center_horizontal|bottom|right" />
+                android:layout_gravity="center_horizontal|bottom|right"/>
+
+
 
 
         </FrameLayout>
@@ -189,7 +207,7 @@
             android:layout_marginTop="36dp"
             android:visibility="gone" />
 
-        <Button
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
@@ -197,7 +215,31 @@
             android:id="@+id/image_clicked_button"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:layout_marginBottom="40dp" />
+            android:layout_marginBottom="40dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:id="@+id/rectangle_view_layer"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:clickable="false"
+            android:focusable="false"
+            />            //android:src="@android:drawable/btn_star_big_on" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="100dp" />
+
+
+
 
 
     </FrameLayout>

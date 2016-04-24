@@ -4,12 +4,15 @@ import com.flir.flironeexampleapplication.util.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
+import android.app.FragmentTransaction;
 import android.content.DialogInterface;
-import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ColorFilter;
+import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.PorterDuff;
+import android.graphics.Rect;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Environment;
@@ -28,6 +31,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -38,8 +42,12 @@ import com.flir.flironesdk.Device;
 import com.flir.flironesdk.Frame;
 import com.flir.flironesdk.FrameProcessor;
 import com.flir.flironesdk.RenderedImage;
-import com.flir.flironesdk.LoadedFrame;
 import com.flir.flironesdk.SimulatedDevice;
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -50,6 +58,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.EnumSet;
 import java.util.Locale;
@@ -82,6 +91,7 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
 
     private int screenWidth;
     private int screenHeight;
+    private boolean captureFlag = false;
 
     public float startX;
     public float startY;
@@ -91,7 +101,9 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
     private Bitmap thermalBitmap = null;
     public RenderedImage currentRenderedImage;
 
-    ArrayList<Double> temperatureData = new ArrayList<>();
+    ArrayList<Float> temperatureData = new ArrayList<>();
+    ArrayList<Float> maxTempData = new ArrayList<>();
+    ArrayList<String> timeList = new ArrayList<>();
 
     long lastRecording;
 
@@ -254,34 +266,58 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         });
     }
 
+    long frameDelay = 0;
+    long thermalFrameDelay = 0;
     // StreamDelegate method
     public void onFrameReceived(Frame frame){
         Log.v("ExampleApp", "Frame received!");
 
-        if (currentTuningState != Device.TuningState.InProgress){
-            frameProcessor.processFrame(frame);
-            thermalFrameProcessor.processFrame(frame);
+        if(System.currentTimeMillis() - frameDelay >= 200) {
+            frameDelay = System.currentTimeMillis();
+            if (currentTuningState != Device.TuningState.InProgress) {
+                frameProcessor.processFrame(frame);
+            }
+        }
+        if(System.currentTimeMillis() - thermalFrameDelay >= 1000) {
+            thermalFrameDelay = System.currentTimeMillis();
+            if (currentTuningState != Device.TuningState.InProgress) {
+                thermalFrameProcessor.processFrame(frame);
+            }
         }
     }
 
+    int num = 1;
     // Frame Processor Delegate method, will be called each time a rendered frame is produced
     public void onFrameProcessed(final RenderedImage renderedImage){
+
         if (renderedImage.imageType() == RenderedImage.ImageType.ThermalRadiometricKelvinImage) {
             if(System.currentTimeMillis() - lastRecording >= 1000) {
-                lastRecording = System.currentTimeMillis();
-                currentRenderedImage = renderedImage;
-                temperatureData.add(averageTemperature());
-
-                for(int i = 0; i < temperatureData.size(); i++){
-                    System.out.println("Time " + i + " s: " + temperatureData.get(i) + " degrees celsius");
+                if(captureFlag == true) {
+                    lastRecording = System.currentTimeMillis();
+                    String strLong = Long.toString(lastRecording);
+                    timeList.add(strLong);
+                    currentRenderedImage = renderedImage;
+                    if (currentTuningState == Device.TuningState.InProgress) { //if device is tuning, simply set data to previous data
+                        if(temperatureData.size() != 0) {
+                            temperatureData.add(temperatureData.get(temperatureData.size() - 1));
+                            maxTempData.add(maxTempData.get(maxTempData.size() - 1));
+                        }
+                    } else {
+                        temperatureData.add(averageTemperature());
+                        maxTempData.add(maxTemperature());
+                    }
+                    System.out.println("Time " + temperatureData.size() + " s: " + temperatureData.get(temperatureData.size() - 1) + " degrees celsius " + " max temperature: " + maxTempData.get(temperatureData.size() - 1));
                 }
             }
+
+
+
             return;
         }
 
-
         thermalBitmap = renderedImage.getBitmap();
         updateThermalImageView(thermalBitmap);
+
 
         /*
         Capture this image if requested.
@@ -369,7 +405,6 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
 
         }
 
-
     }
 
 
@@ -408,24 +443,96 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         }
 
     }
+
     public void onCaptureImageClicked(View v){
 
+        captureFlag = !captureFlag;
 
-        // if nothing's connected, let's load an image instead?
+        ToggleButton tb = (ToggleButton) findViewById(R.id.recordButton);
+        tb.setChecked(captureFlag);
 
-        if(flirOneDevice == null && lastSavedPath != null) {
-            // load!
-            File file = new File(lastSavedPath);
+        if(!captureFlag){
+            AlertDialog.Builder builder = new AlertDialog.Builder(PreviewActivity.this);
+
+            builder.setTitle("Finished Recording");
+            builder.setMessage("Save data?");
+
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+
+                public void onClick(DialogInterface dialog, int which) {
+                    // save all data and then clears
+                    //setContentView(R.layout.graph)
+                    // ;
 
 
-            LoadedFrame frame = new LoadedFrame(file);
+                    maxTempData.clear();
+                    temperatureData.clear();
+                    timeList.clear();
+                    dialog.dismiss();
+                }
 
-            // load the frame
-            onFrameReceived(frame);
-        } else {
-            this.imageCaptureRequested = true;
+            });
+
+            builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    // reset all data in both arrays
+
+
+                    //lineChart.setVisibility(View.INVISIBLE);
+
+                    maxTempData.clear();
+                    temperatureData.clear();
+                    timeList.clear();
+                    dialog.dismiss();
+                }
+            });
+
+            AlertDialog alert = builder.create();
+            alert.show();
         }
+
     }
+
+    Boolean lineChartFlag = false;
+
+    public void show_graph(View v){
+
+        LineChart lineChart = (LineChart) findViewById(R.id.chart);
+
+        if(lineChartFlag == false){
+            lineChartFlag = true;
+            lineChart.setVisibility(View.VISIBLE);
+        }
+        else{
+            lineChartFlag = false;
+            lineChart.setVisibility(View.INVISIBLE);
+        }
+
+        ArrayList<Entry> entries = new ArrayList<>();
+        for(int i = 0; i < maxTempData.size(); i++){
+            entries.add(new Entry(maxTempData.get(i), i));
+        }
+
+        LineDataSet dataset = new LineDataSet(entries, "# of Calls");
+
+        ArrayList<String> labels = new ArrayList<String>();
+        for(int i = 0; i < maxTempData.size(); i++){
+            //labels.add(timeList.get(i) + " s");
+            labels.add(i + " s");
+        }
+
+        LineData data = new LineData(labels, dataset);
+        dataset.setColors(ColorTemplate.COLORFUL_COLORS); //
+        dataset.setDrawCubic(true);
+        dataset.setDrawFilled(true);
+
+        lineChart.setData(data);
+        lineChart.animateY(2000);
+
+    }
+
     public void onConnectSimClicked(View v){
         if(flirOneDevice == null){
             try {
@@ -519,13 +626,13 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
                 public void onClick(DialogInterface dialog, int whichButton) {
                     String value = input.getText().toString();
                     final String[] parts = value.split(":");
-                    (new Thread(){
+                    (new Thread() {
                         @Override
                         public void run() {
                             super.run();
                             try {
                                 streamSocket = new Socket(parts[0], Integer.parseInt(parts[1], 10));
-                                runOnUiThread(new Thread(){
+                                runOnUiThread(new Thread() {
                                     @Override
                                     public void run() {
                                         super.run();
@@ -533,8 +640,8 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
                                     }
                                 });
 
-                            }catch (Exception ex){
-                                Log.e("CONNECT",ex.getMessage());
+                            } catch (Exception ex) {
+                                Log.e("CONNECT", ex.getMessage());
                             }
                         }
                     }).start();
@@ -570,6 +677,7 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         }
     }
 
+
     ScaleGestureDetector mScaleDetector;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -593,7 +701,6 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View controlsViewTop = findViewById(R.id.fullscreen_content_controls_top);
         final View contentView = findViewById(R.id.fullscreen_content);
-
 
         String[] imageTypeNames = new String[RenderedImage.ImageType.values().length - 1]; //do not render the kelvin choice
         // Massage the type names for display purposes
@@ -792,45 +899,88 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
 
     View.OnTouchListener mBoxAverageListener = new View.OnTouchListener() {
         @Override
-        public boolean onTouch(View view, MotionEvent event) {
+        public boolean onTouch(View view, MotionEvent event){
+            if(!captureFlag){
+                Rect r = new Rect();
+                int action = event.getAction();
+                switch (action) {
+                    case MotionEvent.ACTION_DOWN:
+                        startX = event.getX();
+                        startY = event.getY();
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        endX = event.getX();
+                        endY = event.getY();
 
-            int action = event.getAction();
-            switch (action) {
-                case MotionEvent.ACTION_DOWN:
-                    startX = event.getX();
-                    startY = event.getY();
-                    break;
-                case MotionEvent.ACTION_MOVE:
-                    break;
-                case MotionEvent.ACTION_UP:
-                    endX = event.getX();
-                    endY = event.getY();
+                        if (endX < startX) {
+                            float tempX = endX;
+                            endX = startX;
+                            startX = tempX;
+                        }
+                        if (endY < startY) {
+                            float tempY = endY;
+                            endY = startY;
+                            startY = tempY;
+                        }
 
-                    if(endX < startX){
-                        float tempX = endX;
-                        endX = startX;
-                        startX = tempX;
-                    }
-                    if(endY < startY){
-                        float tempY = endY;
-                        endY = startY;
-                        startY = tempY;
-                    }
-
-                    findViewById(R.id.image_clicked_button).setVisibility(View.GONE);
-
-                    break;
-                case MotionEvent.ACTION_CANCEL:
-                    break;
-                default:
-                    break;
+                        findViewById(R.id.image_clicked_button).setVisibility(View.GONE);
+                        ToggleButton tb = (ToggleButton) findViewById(R.id.selectAreaButton);
+                        tb.setChecked(false);
+                        break;
+                    case MotionEvent.ACTION_CANCEL:
+                        break;
+                    default:
+                        break;
+                }
             }
             return false;
-
         }
     };
 
-    public double averageTemperature(){
+    public float maxTemperature(){
+        //height = 320, width = 240
+        int scaledStartX = (int) startX * 240 / screenWidth;
+        int scaledStartY = (int) startY * 320 / screenHeight;
+        int scaledEndX = (int) endX * 240 / screenWidth;
+        int scaledEndY = (int) endY * 320 / screenHeight;
+
+        int maxTemp = 0;
+
+        int totalNumbers = (scaledEndX - scaledStartX) * (scaledEndY - scaledStartY);
+        ArrayList<Integer> temperatures = new ArrayList<>();
+        int i = 0;
+
+        short[] shortPixels = new short[currentRenderedImage.pixelData().length / 2];
+        ByteBuffer.wrap(currentRenderedImage.pixelData()).order(ByteOrder.LITTLE_ENDIAN).asShortBuffer().get(shortPixels);
+        for(int x = (int) scaledStartX; x < (int) scaledEndX; x++){
+            for(int y = (int) scaledStartY; y < (int) scaledEndY; y++){
+                int step = currentRenderedImage.width();
+                temperatures.add((int)shortPixels[x + y*step]);
+                i++;
+            }
+        }
+
+        long totalTemperatures = 0;
+        Collections.sort(temperatures);
+        for(int j = totalNumbers- 1; j > 0.9*totalNumbers - 1; j--){
+            totalTemperatures += temperatures.get(j);
+        }
+
+        float averageMaxTemp = totalTemperatures /= 0.1*totalNumbers;
+        averageMaxTemp = averageMaxTemp / 100f - 273.15f;
+
+        if(averageMaxTemp < -270)
+            return -275;
+
+        System.out.println("max temperature in celsius: " + averageMaxTemp);
+
+        return averageMaxTemp;
+    }
+
+
+    public float averageTemperature(){
         //height = 320, width = 240
         int scaledStartX = (int) startX * 240 / screenWidth;
         int scaledStartY = (int) startY * 320 / screenHeight;
@@ -847,11 +997,18 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
             }
         }
         double averageTemp = 0;
+
+        if((scaledEndX- scaledStartX) == 0 || (scaledEndY- scaledStartY) == 0)
+            return -275;
+
         averageTemp = (double) totalTemp / (double)((scaledEndX - scaledStartX)*(scaledEndY - scaledStartY));
-        double averageC = (averageTemp / 100) - 273.15;
+        float averageC = (float)(averageTemp / 100) - 273.15f;
 
         //String tempToShow = String.valueOf("Average temperature in selected area: " + averageC);
         //Toast.makeText(getApplicationContext(), tempToShow, Toast.LENGTH_SHORT).show();
+
+        if(averageC < -270)
+            return -275;
 
         System.out.println("Average temperature in celsius: " + averageC);
 

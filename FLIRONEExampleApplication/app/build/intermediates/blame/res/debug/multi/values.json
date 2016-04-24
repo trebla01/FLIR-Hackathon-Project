@@ -2591,8 +2591,8 @@
                     "startLine": 163,
                     "startColumn": 4,
                     "startOffset": 22839,
-                    "endColumn": 65,
-                    "endOffset": 22900
+                    "endColumn": 47,
+                    "endOffset": 22882
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
@@ -2600,8 +2600,8 @@
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 56,
-                        "endColumn": 65,
-                        "endOffset": 117
+                        "endColumn": 47,
+                        "endOffset": 99
                     }
                 }
             },
@@ -2609,18 +2609,18 @@
                 "to": {
                     "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 22905,
+                    "startOffset": 22887,
                     "endColumn": 47,
-                    "endOffset": 22948
+                    "endOffset": 22930
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 436,
+                        "startOffset": 418,
                         "endColumn": 47,
-                        "endOffset": 479
+                        "endOffset": 461
                     }
                 }
             },
@@ -2628,18 +2628,18 @@
                 "to": {
                     "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 22953,
+                    "startOffset": 22935,
                     "endColumn": 58,
-                    "endOffset": 23007
+                    "endOffset": 22989
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 122,
+                        "startOffset": 104,
                         "endColumn": 58,
-                        "endOffset": 176
+                        "endOffset": 158
                     }
                 }
             },
@@ -2647,18 +2647,18 @@
                 "to": {
                     "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 23012,
+                    "startOffset": 22994,
                     "endColumn": 66,
-                    "endOffset": 23074
+                    "endOffset": 23056
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 181,
+                        "startOffset": 163,
                         "endColumn": 66,
-                        "endOffset": 243
+                        "endOffset": 225
                     }
                 }
             },
@@ -2666,18 +2666,18 @@
                 "to": {
                     "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 23079,
+                    "startOffset": 23061,
                     "endColumn": 49,
-                    "endOffset": 23124
+                    "endOffset": 23106
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 248,
+                        "startOffset": 230,
                         "endColumn": 49,
-                        "endOffset": 293
+                        "endOffset": 275
                     }
                 }
             },
@@ -2685,18 +2685,18 @@
                 "to": {
                     "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 23129,
+                    "startOffset": 23111,
                     "endColumn": 46,
-                    "endOffset": 23171
+                    "endOffset": 23153
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 298,
+                        "startOffset": 280,
                         "endColumn": 46,
-                        "endOffset": 340
+                        "endOffset": 322
                     }
                 }
             },
@@ -2704,18 +2704,18 @@
                 "to": {
                     "startLine": 169,
                     "startColumn": 4,
-                    "startOffset": 23176,
+                    "startOffset": 23158,
                     "endColumn": 45,
-                    "endOffset": 23217
+                    "endOffset": 23199
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 390,
+                        "startOffset": 372,
                         "endColumn": 45,
-                        "endOffset": 431
+                        "endOffset": 413
                     }
                 }
             },
@@ -2723,18 +2723,18 @@
                 "to": {
                     "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 23222,
+                    "startOffset": 23204,
                     "endColumn": 44,
-                    "endOffset": 23262
+                    "endOffset": 23244
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 345,
+                        "startOffset": 327,
                         "endColumn": 44,
-                        "endOffset": 385
+                        "endOffset": 367
                     }
                 }
             },
@@ -2742,18 +2742,18 @@
                 "to": {
                     "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 23267,
+                    "startOffset": 23249,
                     "endColumn": 49,
-                    "endOffset": 23312
+                    "endOffset": 23294
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 532,
+                        "startOffset": 514,
                         "endColumn": 49,
-                        "endOffset": 577
+                        "endOffset": 559
                     }
                 }
             },
@@ -2761,18 +2761,18 @@
                 "to": {
                     "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 23317,
+                    "startOffset": 23299,
                     "endColumn": 52,
-                    "endOffset": 23365
+                    "endOffset": 23347
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 582,
+                        "startOffset": 564,
                         "endColumn": 52,
-                        "endOffset": 630
+                        "endOffset": 612
                     }
                 }
             },
@@ -2780,18 +2780,18 @@
                 "to": {
                     "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 23370,
+                    "startOffset": 23352,
                     "endColumn": 47,
-                    "endOffset": 23413
+                    "endOffset": 23395
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 484,
+                        "startOffset": 466,
                         "endColumn": 47,
-                        "endOffset": 527
+                        "endOffset": 509
                     }
                 }
             },
@@ -2799,9 +2799,9 @@
                 "to": {
                     "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 23418,
+                    "startOffset": 23400,
                     "endColumn": 95,
-                    "endOffset": 23509
+                    "endOffset": 23491
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2818,10 +2818,10 @@
                 "to": {
                     "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 23514,
+                    "startOffset": 23496,
                     "endLine": 177,
                     "endColumn": 12,
-                    "endOffset": 23639
+                    "endOffset": 23621
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\styles.xml",
@@ -2839,10 +2839,10 @@
                 "to": {
                     "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 23644,
+                    "startOffset": 23626,
                     "endLine": 181,
                     "endColumn": 12,
-                    "endOffset": 23920
+                    "endOffset": 23902
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2860,10 +2860,10 @@
                 "to": {
                     "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 23925,
+                    "startOffset": 23907,
                     "endLine": 188,
                     "endColumn": 12,
-                    "endOffset": 24397
+                    "endOffset": 24379
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2881,10 +2881,10 @@
                 "to": {
                     "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 24402,
+                    "startOffset": 24384,
                     "endLine": 192,
                     "endColumn": 12,
-                    "endOffset": 24619
+                    "endOffset": 24601
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2902,10 +2902,10 @@
                 "to": {
                     "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 24624,
+                    "startOffset": 24606,
                     "endLine": 196,
                     "endColumn": 12,
-                    "endOffset": 24841
+                    "endOffset": 24823
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2923,10 +2923,10 @@
                 "to": {
                     "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 24846,
+                    "startOffset": 24828,
                     "endLine": 201,
                     "endColumn": 12,
-                    "endOffset": 25109
+                    "endOffset": 25091
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2944,10 +2944,10 @@
                 "to": {
                     "startLine": 202,
                     "startColumn": 4,
-                    "startOffset": 25114,
+                    "startOffset": 25096,
                     "endLine": 205,
                     "endColumn": 12,
-                    "endOffset": 25336
+                    "endOffset": 25318
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2965,10 +2965,10 @@
                 "to": {
                     "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 25341,
+                    "startOffset": 25323,
                     "endLine": 209,
                     "endColumn": 12,
-                    "endOffset": 25566
+                    "endOffset": 25548
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -2986,10 +2986,10 @@
                 "to": {
                     "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 25571,
+                    "startOffset": 25553,
                     "endLine": 213,
                     "endColumn": 12,
-                    "endOffset": 25796
+                    "endOffset": 25778
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3007,10 +3007,10 @@
                 "to": {
                     "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 25801,
+                    "startOffset": 25783,
                     "endLine": 217,
                     "endColumn": 12,
-                    "endOffset": 26026
+                    "endOffset": 26008
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3028,10 +3028,10 @@
                 "to": {
                     "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 26031,
+                    "startOffset": 26013,
                     "endLine": 221,
                     "endColumn": 12,
-                    "endOffset": 26256
+                    "endOffset": 26238
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3049,10 +3049,10 @@
                 "to": {
                     "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 26261,
+                    "startOffset": 26243,
                     "endLine": 225,
                     "endColumn": 12,
-                    "endOffset": 26483
+                    "endOffset": 26465
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3070,10 +3070,10 @@
                 "to": {
                     "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 26488,
+                    "startOffset": 26470,
                     "endLine": 229,
                     "endColumn": 12,
-                    "endOffset": 26722
+                    "endOffset": 26704
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3091,10 +3091,10 @@
                 "to": {
                     "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 26727,
+                    "startOffset": 26709,
                     "endLine": 233,
                     "endColumn": 12,
-                    "endOffset": 26948
+                    "endOffset": 26930
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3112,10 +3112,10 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 26953,
+                    "startOffset": 26935,
                     "endLine": 237,
                     "endColumn": 12,
-                    "endOffset": 27193
+                    "endOffset": 27175
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3133,10 +3133,10 @@
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 27198,
+                    "startOffset": 27180,
                     "endLine": 239,
                     "endColumn": 12,
-                    "endOffset": 27323
+                    "endOffset": 27305
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3154,10 +3154,10 @@
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 27328,
+                    "startOffset": 27310,
                     "endLine": 241,
                     "endColumn": 12,
-                    "endOffset": 27453
+                    "endOffset": 27435
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3175,10 +3175,10 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 27458,
+                    "startOffset": 27440,
                     "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 27683
+                    "endOffset": 27665
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3196,10 +3196,10 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 27688,
+                    "startOffset": 27670,
                     "endLine": 249,
                     "endColumn": 12,
-                    "endOffset": 27931
+                    "endOffset": 27913
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3217,10 +3217,10 @@
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 27936,
+                    "startOffset": 27918,
                     "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 28150
+                    "endOffset": 28132
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3238,10 +3238,10 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 28155,
+                    "startOffset": 28137,
                     "endLine": 258,
                     "endColumn": 12,
-                    "endOffset": 28433
+                    "endOffset": 28415
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3259,10 +3259,10 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 28438,
+                    "startOffset": 28420,
                     "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 28641
+                    "endOffset": 28623
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3280,10 +3280,10 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 28646,
+                    "startOffset": 28628,
                     "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 28772
+                    "endOffset": 28754
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3301,10 +3301,10 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 28777,
+                    "startOffset": 28759,
                     "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 28999
+                    "endOffset": 28981
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3322,10 +3322,10 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 29004,
+                    "startOffset": 28986,
                     "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 29245
+                    "endOffset": 29227
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3343,10 +3343,10 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 29250,
+                    "startOffset": 29232,
                     "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 29470
+                    "endOffset": 29452
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3364,10 +3364,10 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 29475,
+                    "startOffset": 29457,
                     "endLine": 281,
                     "endColumn": 12,
-                    "endOffset": 29719
+                    "endOffset": 29701
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3385,10 +3385,10 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 29724,
+                    "startOffset": 29706,
                     "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 29940
+                    "endOffset": 29922
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3406,10 +3406,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 29945,
+                    "startOffset": 29927,
                     "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 30185
+                    "endOffset": 30167
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3427,10 +3427,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 30190,
+                    "startOffset": 30172,
                     "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 30480
+                    "endOffset": 30462
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3448,10 +3448,10 @@
                 "to": {
                     "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 30485,
+                    "startOffset": 30467,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 30702
+                    "endOffset": 30684
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3469,10 +3469,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 30707,
+                    "startOffset": 30689,
                     "endLine": 300,
                     "endColumn": 12,
-                    "endOffset": 30940
+                    "endOffset": 30922
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3490,10 +3490,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 30945,
+                    "startOffset": 30927,
                     "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 31154
+                    "endOffset": 31136
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3511,10 +3511,10 @@
                 "to": {
                     "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 31159,
+                    "startOffset": 31141,
                     "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 31384
+                    "endOffset": 31366
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3532,10 +3532,10 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 31389,
+                    "startOffset": 31371,
                     "endLine": 309,
                     "endColumn": 12,
-                    "endOffset": 31607
+                    "endOffset": 31589
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3553,10 +3553,10 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 31612,
+                    "startOffset": 31594,
                     "endLine": 312,
                     "endColumn": 12,
-                    "endOffset": 31822
+                    "endOffset": 31804
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3574,10 +3574,10 @@
                 "to": {
                     "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 31827,
+                    "startOffset": 31809,
                     "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 32030
+                    "endOffset": 32012
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3595,10 +3595,10 @@
                 "to": {
                     "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 32035,
+                    "startOffset": 32017,
                     "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 32154
+                    "endOffset": 32136
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3616,10 +3616,10 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 32159,
+                    "startOffset": 32141,
                     "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 32278
+                    "endOffset": 32260
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3637,9 +3637,9 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 32283,
+                    "startOffset": 32265,
                     "endColumn": 104,
-                    "endOffset": 32383
+                    "endOffset": 32365
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3656,9 +3656,9 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 32388,
+                    "startOffset": 32370,
                     "endColumn": 116,
-                    "endOffset": 32500
+                    "endOffset": 32482
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3675,10 +3675,10 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 32505,
+                    "startOffset": 32487,
                     "endLine": 324,
                     "endColumn": 12,
-                    "endOffset": 32714
+                    "endOffset": 32696
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3696,10 +3696,10 @@
                 "to": {
                     "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 32719,
+                    "startOffset": 32701,
                     "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 32860
+                    "endOffset": 32842
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3717,10 +3717,10 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 32865,
+                    "startOffset": 32847,
                     "endLine": 328,
                     "endColumn": 12,
-                    "endOffset": 33000
+                    "endOffset": 32982
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3738,10 +3738,10 @@
                 "to": {
                     "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 33005,
+                    "startOffset": 32987,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 33086
+                    "endOffset": 33068
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3759,10 +3759,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 33091,
+                    "startOffset": 33073,
                     "endLine": 335,
                     "endColumn": 12,
-                    "endOffset": 33434
+                    "endOffset": 33416
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3780,9 +3780,9 @@
                 "to": {
                     "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 33439,
+                    "startOffset": 33421,
                     "endColumn": 87,
-                    "endOffset": 33522
+                    "endOffset": 33504
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3799,10 +3799,10 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 33527,
+                    "startOffset": 33509,
                     "endLine": 342,
                     "endColumn": 12,
-                    "endOffset": 33924
+                    "endOffset": 33906
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3820,9 +3820,9 @@
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 33929,
+                    "startOffset": 33911,
                     "endColumn": 81,
-                    "endOffset": 34006
+                    "endOffset": 33988
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3839,10 +3839,10 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 34011,
+                    "startOffset": 33993,
                     "endLine": 345,
                     "endColumn": 12,
-                    "endOffset": 34104
+                    "endOffset": 34086
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3860,10 +3860,10 @@
                 "to": {
                     "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 34109,
+                    "startOffset": 34091,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 34721
+                    "endOffset": 34703
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3881,9 +3881,9 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 34726,
+                    "startOffset": 34708,
                     "endColumn": 90,
-                    "endOffset": 34812
+                    "endOffset": 34794
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3900,10 +3900,10 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 34817,
+                    "startOffset": 34799,
                     "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 35220
+                    "endOffset": 35202
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3921,9 +3921,9 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 35225,
+                    "startOffset": 35207,
                     "endColumn": 93,
-                    "endOffset": 35314
+                    "endOffset": 35296
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3940,9 +3940,9 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 35319,
+                    "startOffset": 35301,
                     "endColumn": 57,
-                    "endOffset": 35372
+                    "endOffset": 35354
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3959,10 +3959,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 35377,
+                    "startOffset": 35359,
                     "endLine": 368,
                     "endColumn": 12,
-                    "endOffset": 35520
+                    "endOffset": 35502
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -3980,10 +3980,10 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 35525,
+                    "startOffset": 35507,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 38015
+                    "endOffset": 37997
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4001,10 +4001,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 38020,
+                    "startOffset": 38002,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 38168
+                    "endOffset": 38150
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4022,10 +4022,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 38173,
+                    "startOffset": 38155,
                     "endLine": 441,
                     "endColumn": 12,
-                    "endOffset": 40776
+                    "endOffset": 40758
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4043,10 +4043,10 @@
                 "to": {
                     "startLine": 442,
                     "startColumn": 4,
-                    "startOffset": 40781,
+                    "startOffset": 40763,
                     "endLine": 556,
                     "endColumn": 12,
-                    "endOffset": 48090
+                    "endOffset": 48072
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4064,10 +4064,10 @@
                 "to": {
                     "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 48095,
+                    "startOffset": 48077,
                     "endLine": 667,
                     "endColumn": 12,
-                    "endOffset": 55282
+                    "endOffset": 55264
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4085,10 +4085,10 @@
                 "to": {
                     "startLine": 668,
                     "startColumn": 4,
-                    "startOffset": 55287,
+                    "startOffset": 55269,
                     "endLine": 782,
                     "endColumn": 12,
-                    "endOffset": 62687
+                    "endOffset": 62669
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4106,10 +4106,10 @@
                 "to": {
                     "startLine": 783,
                     "startColumn": 4,
-                    "startOffset": 62692,
+                    "startOffset": 62674,
                     "endLine": 801,
                     "endColumn": 12,
-                    "endOffset": 63630
+                    "endOffset": 63612
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4127,10 +4127,10 @@
                 "to": {
                     "startLine": 802,
                     "startColumn": 4,
-                    "startOffset": 63635,
+                    "startOffset": 63617,
                     "endLine": 806,
                     "endColumn": 12,
-                    "endOffset": 63886
+                    "endOffset": 63868
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4148,10 +4148,10 @@
                 "to": {
                     "startLine": 807,
                     "startColumn": 4,
-                    "startOffset": 63891,
+                    "startOffset": 63873,
                     "endLine": 811,
                     "endColumn": 12,
-                    "endOffset": 64122
+                    "endOffset": 64104
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4169,10 +4169,10 @@
                 "to": {
                     "startLine": 812,
                     "startColumn": 4,
-                    "startOffset": 64127,
+                    "startOffset": 64109,
                     "endLine": 821,
                     "endColumn": 12,
-                    "endOffset": 64669
+                    "endOffset": 64651
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4190,10 +4190,10 @@
                 "to": {
                     "startLine": 822,
                     "startColumn": 4,
-                    "startOffset": 64674,
+                    "startOffset": 64656,
                     "endLine": 830,
                     "endColumn": 12,
-                    "endOffset": 65163
+                    "endOffset": 65145
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4211,10 +4211,10 @@
                 "to": {
                     "startLine": 831,
                     "startColumn": 4,
-                    "startOffset": 65168,
+                    "startOffset": 65150,
                     "endLine": 841,
                     "endColumn": 12,
-                    "endOffset": 65836
+                    "endOffset": 65818
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4232,10 +4232,10 @@
                 "to": {
                     "startLine": 842,
                     "startColumn": 4,
-                    "startOffset": 65841,
+                    "startOffset": 65823,
                     "endLine": 844,
                     "endColumn": 12,
-                    "endOffset": 66001
+                    "endOffset": 65983
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4253,10 +4253,10 @@
                 "to": {
                     "startLine": 845,
                     "startColumn": 4,
-                    "startOffset": 66006,
+                    "startOffset": 65988,
                     "endLine": 851,
                     "endColumn": 12,
-                    "endOffset": 66529
+                    "endOffset": 66511
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4274,10 +4274,10 @@
                 "to": {
                     "startLine": 852,
                     "startColumn": 4,
-                    "startOffset": 66534,
+                    "startOffset": 66516,
                     "endLine": 859,
                     "endColumn": 12,
-                    "endOffset": 67093
+                    "endOffset": 67075
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4295,10 +4295,10 @@
                 "to": {
                     "startLine": 860,
                     "startColumn": 4,
-                    "startOffset": 67098,
+                    "startOffset": 67080,
                     "endLine": 866,
                     "endColumn": 12,
-                    "endOffset": 67468
+                    "endOffset": 67450
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4316,10 +4316,10 @@
                 "to": {
                     "startLine": 867,
                     "startColumn": 4,
-                    "startOffset": 67473,
+                    "startOffset": 67455,
                     "endLine": 873,
                     "endColumn": 12,
-                    "endOffset": 68001
+                    "endOffset": 67983
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4337,10 +4337,10 @@
                 "to": {
                     "startLine": 874,
                     "startColumn": 4,
-                    "startOffset": 68006,
+                    "startOffset": 67988,
                     "endLine": 882,
                     "endColumn": 12,
-                    "endOffset": 68539
+                    "endOffset": 68521
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4358,10 +4358,10 @@
                 "to": {
                     "startLine": 883,
                     "startColumn": 4,
-                    "startOffset": 68544,
+                    "startOffset": 68526,
                     "endLine": 886,
                     "endColumn": 12,
-                    "endOffset": 68709
+                    "endOffset": 68691
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4379,10 +4379,10 @@
                 "to": {
                     "startLine": 887,
                     "startColumn": 4,
-                    "startOffset": 68714,
+                    "startOffset": 68696,
                     "endLine": 893,
                     "endColumn": 12,
-                    "endOffset": 69200
+                    "endOffset": 69182
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4400,10 +4400,10 @@
                 "to": {
                     "startLine": 894,
                     "startColumn": 4,
-                    "startOffset": 69205,
+                    "startOffset": 69187,
                     "endLine": 898,
                     "endColumn": 12,
-                    "endOffset": 69462
+                    "endOffset": 69444
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4421,10 +4421,10 @@
                 "to": {
                     "startLine": 899,
                     "startColumn": 4,
-                    "startOffset": 69467,
+                    "startOffset": 69449,
                     "endLine": 905,
                     "endColumn": 12,
-                    "endOffset": 69812
+                    "endOffset": 69794
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4442,10 +4442,10 @@
                 "to": {
                     "startLine": 906,
                     "startColumn": 4,
-                    "startOffset": 69817,
+                    "startOffset": 69799,
                     "endLine": 911,
                     "endColumn": 12,
-                    "endOffset": 70165
+                    "endOffset": 70147
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4463,10 +4463,10 @@
                 "to": {
                     "startLine": 912,
                     "startColumn": 4,
-                    "startOffset": 70170,
+                    "startOffset": 70152,
                     "endLine": 916,
                     "endColumn": 12,
-                    "endOffset": 70492
+                    "endOffset": 70474
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4484,10 +4484,10 @@
                 "to": {
                     "startLine": 917,
                     "startColumn": 4,
-                    "startOffset": 70497,
+                    "startOffset": 70479,
                     "endLine": 920,
                     "endColumn": 12,
-                    "endOffset": 70798
+                    "endOffset": 70780
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4505,10 +4505,10 @@
                 "to": {
                     "startLine": 921,
                     "startColumn": 4,
-                    "startOffset": 70803,
+                    "startOffset": 70785,
                     "endLine": 925,
                     "endColumn": 12,
-                    "endOffset": 71060
+                    "endOffset": 71042
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4526,10 +4526,10 @@
                 "to": {
                     "startLine": 926,
                     "startColumn": 4,
-                    "startOffset": 71065,
+                    "startOffset": 71047,
                     "endLine": 927,
                     "endColumn": 12,
-                    "endOffset": 71185
+                    "endOffset": 71167
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4547,10 +4547,10 @@
                 "to": {
                     "startLine": 928,
                     "startColumn": 4,
-                    "startOffset": 71190,
+                    "startOffset": 71172,
                     "endLine": 929,
                     "endColumn": 12,
-                    "endOffset": 71312
+                    "endOffset": 71294
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4568,10 +4568,10 @@
                 "to": {
                     "startLine": 930,
                     "startColumn": 4,
-                    "startOffset": 71317,
+                    "startOffset": 71299,
                     "endLine": 932,
                     "endColumn": 12,
-                    "endOffset": 71551
+                    "endOffset": 71533
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4589,10 +4589,10 @@
                 "to": {
                     "startLine": 933,
                     "startColumn": 4,
-                    "startOffset": 71556,
+                    "startOffset": 71538,
                     "endLine": 935,
                     "endColumn": 12,
-                    "endOffset": 71762
+                    "endOffset": 71744
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4610,10 +4610,10 @@
                 "to": {
                     "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 71767,
+                    "startOffset": 71749,
                     "endLine": 937,
                     "endColumn": 12,
-                    "endOffset": 71881
+                    "endOffset": 71863
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4631,10 +4631,10 @@
                 "to": {
                     "startLine": 938,
                     "startColumn": 4,
-                    "startOffset": 71886,
+                    "startOffset": 71868,
                     "endLine": 941,
                     "endColumn": 12,
-                    "endOffset": 72074
+                    "endOffset": 72056
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4652,10 +4652,10 @@
                 "to": {
                     "startLine": 942,
                     "startColumn": 4,
-                    "startOffset": 72079,
+                    "startOffset": 72061,
                     "endLine": 948,
                     "endColumn": 12,
-                    "endOffset": 72529
+                    "endOffset": 72511
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4673,10 +4673,10 @@
                 "to": {
                     "startLine": 949,
                     "startColumn": 4,
-                    "startOffset": 72534,
+                    "startOffset": 72516,
                     "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 72769
+                    "endOffset": 72751
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4694,10 +4694,10 @@
                 "to": {
                     "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 72774,
+                    "startOffset": 72756,
                     "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 73028
+                    "endOffset": 73010
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4715,10 +4715,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 73033,
+                    "startOffset": 73015,
                     "endLine": 958,
                     "endColumn": 12,
-                    "endOffset": 73141
+                    "endOffset": 73123
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4736,10 +4736,10 @@
                 "to": {
                     "startLine": 959,
                     "startColumn": 4,
-                    "startOffset": 73146,
+                    "startOffset": 73128,
                     "endLine": 962,
                     "endColumn": 12,
-                    "endOffset": 73328
+                    "endOffset": 73310
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4757,10 +4757,10 @@
                 "to": {
                     "startLine": 963,
                     "startColumn": 4,
-                    "startOffset": 73333,
+                    "startOffset": 73315,
                     "endLine": 964,
                     "endColumn": 12,
-                    "endOffset": 73430
+                    "endOffset": 73412
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4778,10 +4778,10 @@
                 "to": {
                     "startLine": 965,
                     "startColumn": 4,
-                    "startOffset": 73435,
+                    "startOffset": 73417,
                     "endLine": 970,
                     "endColumn": 12,
-                    "endOffset": 73874
+                    "endOffset": 73856
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4799,10 +4799,10 @@
                 "to": {
                     "startLine": 971,
                     "startColumn": 4,
-                    "startOffset": 73879,
+                    "startOffset": 73861,
                     "endLine": 972,
                     "endColumn": 12,
-                    "endOffset": 73998
+                    "endOffset": 73980
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4820,10 +4820,10 @@
                 "to": {
                     "startLine": 973,
                     "startColumn": 4,
-                    "startOffset": 74003,
+                    "startOffset": 73985,
                     "endLine": 976,
                     "endColumn": 12,
-                    "endOffset": 74283
+                    "endOffset": 74265
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4841,10 +4841,10 @@
                 "to": {
                     "startLine": 977,
                     "startColumn": 4,
-                    "startOffset": 74288,
+                    "startOffset": 74270,
                     "endLine": 987,
                     "endColumn": 12,
-                    "endOffset": 75088
+                    "endOffset": 75070
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4862,10 +4862,10 @@
                 "to": {
                     "startLine": 988,
                     "startColumn": 4,
-                    "startOffset": 75093,
+                    "startOffset": 75075,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 75418
+                    "endOffset": 75400
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4883,10 +4883,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 75423,
+                    "startOffset": 75405,
                     "endLine": 1007,
                     "endColumn": 12,
-                    "endOffset": 76338
+                    "endOffset": 76320
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4904,10 +4904,10 @@
                 "to": {
                     "startLine": 1008,
                     "startColumn": 4,
-                    "startOffset": 76343,
+                    "startOffset": 76325,
                     "endLine": 1010,
                     "endColumn": 12,
-                    "endOffset": 76510
+                    "endOffset": 76492
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4925,10 +4925,10 @@
                 "to": {
                     "startLine": 1011,
                     "startColumn": 4,
-                    "startOffset": 76515,
+                    "startOffset": 76497,
                     "endLine": 1015,
                     "endColumn": 12,
-                    "endOffset": 76846
+                    "endOffset": 76828
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4946,10 +4946,10 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 76851,
+                    "startOffset": 76833,
                     "endLine": 1025,
                     "endColumn": 12,
-                    "endOffset": 77512
+                    "endOffset": 77494
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4967,10 +4967,10 @@
                 "to": {
                     "startLine": 1026,
                     "startColumn": 4,
-                    "startOffset": 77517,
+                    "startOffset": 77499,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 77797
+                    "endOffset": 77779
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -4988,10 +4988,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 77802,
+                    "startOffset": 77784,
                     "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 78125
+                    "endOffset": 78107
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\styles.xml",
@@ -5009,9 +5009,9 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 78130,
+                    "startOffset": 78112,
                     "endColumn": 35,
-                    "endOffset": 78161
+                    "endOffset": 78143
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\styles.xml",
@@ -5028,10 +5028,10 @@
                 "to": {
                     "startLine": 1039,
                     "startColumn": 4,
-                    "startOffset": 78166,
+                    "startOffset": 78148,
                     "endLine": 1044,
                     "endColumn": 12,
-                    "endOffset": 78505
+                    "endOffset": 78487
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\values\\styles.xml",
@@ -5049,10 +5049,10 @@
                 "to": {
                     "startLine": 1045,
                     "startColumn": 4,
-                    "startOffset": 78510,
+                    "startOffset": 78492,
                     "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 81785
+                    "endOffset": 81767
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5070,10 +5070,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 81790,
+                    "startOffset": 81772,
                     "endLine": 1134,
                     "endColumn": 12,
-                    "endOffset": 85079
+                    "endOffset": 85061
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5091,10 +5091,10 @@
                 "to": {
                     "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 85084,
+                    "startOffset": 85066,
                     "endLine": 1180,
                     "endColumn": 12,
-                    "endOffset": 88499
+                    "endOffset": 88481
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5112,9 +5112,9 @@
                 "to": {
                     "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 88504,
+                    "startOffset": 88486,
                     "endColumn": 86,
-                    "endOffset": 88586
+                    "endOffset": 88568
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5131,10 +5131,10 @@
                 "to": {
                     "startLine": 1182,
                     "startColumn": 4,
-                    "startOffset": 88591,
+                    "startOffset": 88573,
                     "endLine": 1185,
                     "endColumn": 12,
-                    "endOffset": 88815
+                    "endOffset": 88797
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5152,10 +5152,10 @@
                 "to": {
                     "startLine": 1186,
                     "startColumn": 4,
-                    "startOffset": 88820,
+                    "startOffset": 88802,
                     "endLine": 1189,
                     "endColumn": 12,
-                    "endOffset": 89064
+                    "endOffset": 89046
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5173,10 +5173,10 @@
                 "to": {
                     "startLine": 1190,
                     "startColumn": 4,
-                    "startOffset": 89069,
+                    "startOffset": 89051,
                     "endLine": 1193,
                     "endColumn": 12,
-                    "endOffset": 89305
+                    "endOffset": 89287
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5194,10 +5194,10 @@
                 "to": {
                     "startLine": 1194,
                     "startColumn": 4,
-                    "startOffset": 89310,
+                    "startOffset": 89292,
                     "endLine": 1196,
                     "endColumn": 12,
-                    "endOffset": 89457
+                    "endOffset": 89439
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5215,10 +5215,10 @@
                 "to": {
                     "startLine": 1197,
                     "startColumn": 4,
-                    "startOffset": 89462,
+                    "startOffset": 89444,
                     "endLine": 1199,
                     "endColumn": 12,
-                    "endOffset": 89628
+                    "endOffset": 89610
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5236,10 +5236,10 @@
                 "to": {
                     "startLine": 1200,
                     "startColumn": 4,
-                    "startOffset": 89633,
+                    "startOffset": 89615,
                     "endLine": 1202,
                     "endColumn": 12,
-                    "endOffset": 89795
+                    "endOffset": 89777
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5257,10 +5257,10 @@
                 "to": {
                     "startLine": 1203,
                     "startColumn": 4,
-                    "startOffset": 89800,
+                    "startOffset": 89782,
                     "endLine": 1206,
                     "endColumn": 12,
-                    "endOffset": 90038
+                    "endOffset": 90020
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5278,10 +5278,10 @@
                 "to": {
                     "startLine": 1207,
                     "startColumn": 4,
-                    "startOffset": 90043,
+                    "startOffset": 90025,
                     "endLine": 1209,
                     "endColumn": 12,
-                    "endOffset": 90208
+                    "endOffset": 90190
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5299,10 +5299,10 @@
                 "to": {
                     "startLine": 1210,
                     "startColumn": 4,
-                    "startOffset": 90213,
+                    "startOffset": 90195,
                     "endLine": 1212,
                     "endColumn": 12,
-                    "endOffset": 90381
+                    "endOffset": 90363
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5320,10 +5320,10 @@
                 "to": {
                     "startLine": 1213,
                     "startColumn": 4,
-                    "startOffset": 90386,
+                    "startOffset": 90368,
                     "endLine": 1215,
                     "endColumn": 12,
-                    "endOffset": 90552
+                    "endOffset": 90534
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5341,10 +5341,10 @@
                 "to": {
                     "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 90557,
+                    "startOffset": 90539,
                     "endLine": 1219,
                     "endColumn": 12,
-                    "endOffset": 90826
+                    "endOffset": 90808
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5362,10 +5362,10 @@
                 "to": {
                     "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 90831,
+                    "startOffset": 90813,
                     "endLine": 1222,
                     "endColumn": 12,
-                    "endOffset": 91025
+                    "endOffset": 91007
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5383,9 +5383,9 @@
                 "to": {
                     "startLine": 1223,
                     "startColumn": 4,
-                    "startOffset": 91030,
+                    "startOffset": 91012,
                     "endColumn": 83,
-                    "endOffset": 91109
+                    "endOffset": 91091
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5402,9 +5402,9 @@
                 "to": {
                     "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 91114,
+                    "startOffset": 91096,
                     "endColumn": 95,
-                    "endOffset": 91205
+                    "endOffset": 91187
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5421,9 +5421,9 @@
                 "to": {
                     "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 91210,
+                    "startOffset": 91192,
                     "endColumn": 95,
-                    "endOffset": 91301
+                    "endOffset": 91283
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5440,9 +5440,9 @@
                 "to": {
                     "startLine": 1226,
                     "startColumn": 4,
-                    "startOffset": 91306,
+                    "startOffset": 91288,
                     "endColumn": 97,
-                    "endOffset": 91399
+                    "endOffset": 91381
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5459,9 +5459,9 @@
                 "to": {
                     "startLine": 1227,
                     "startColumn": 4,
-                    "startOffset": 91404,
+                    "startOffset": 91386,
                     "endColumn": 99,
-                    "endOffset": 91499
+                    "endOffset": 91481
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5478,9 +5478,9 @@
                 "to": {
                     "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 91504,
+                    "startOffset": 91486,
                     "endColumn": 101,
-                    "endOffset": 91601
+                    "endOffset": 91583
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5497,9 +5497,9 @@
                 "to": {
                     "startLine": 1229,
                     "startColumn": 4,
-                    "startOffset": 91606,
+                    "startOffset": 91588,
                     "endColumn": 101,
-                    "endOffset": 91703
+                    "endOffset": 91685
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5516,9 +5516,9 @@
                 "to": {
                     "startLine": 1230,
                     "startColumn": 4,
-                    "startOffset": 91708,
+                    "startOffset": 91690,
                     "endColumn": 101,
-                    "endOffset": 91805
+                    "endOffset": 91787
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5535,9 +5535,9 @@
                 "to": {
                     "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 91810,
+                    "startOffset": 91792,
                     "endColumn": 101,
-                    "endOffset": 91907
+                    "endOffset": 91889
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5554,9 +5554,9 @@
                 "to": {
                     "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 91912,
+                    "startOffset": 91894,
                     "endColumn": 101,
-                    "endOffset": 92009
+                    "endOffset": 91991
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5573,9 +5573,9 @@
                 "to": {
                     "startLine": 1233,
                     "startColumn": 4,
-                    "startOffset": 92014,
+                    "startOffset": 91996,
                     "endColumn": 99,
-                    "endOffset": 92109
+                    "endOffset": 92091
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5592,9 +5592,9 @@
                 "to": {
                     "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 92114,
+                    "startOffset": 92096,
                     "endColumn": 95,
-                    "endOffset": 92205
+                    "endOffset": 92187
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5611,9 +5611,9 @@
                 "to": {
                     "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 92210,
+                    "startOffset": 92192,
                     "endColumn": 111,
-                    "endOffset": 92317
+                    "endOffset": 92299
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5630,9 +5630,9 @@
                 "to": {
                     "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 92322,
+                    "startOffset": 92304,
                     "endColumn": 128,
-                    "endOffset": 92446
+                    "endOffset": 92428
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5649,9 +5649,9 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 92451,
+                    "startOffset": 92433,
                     "endColumn": 122,
-                    "endOffset": 92569
+                    "endOffset": 92551
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5668,10 +5668,10 @@
                 "to": {
                     "startLine": 1238,
                     "startColumn": 4,
-                    "startOffset": 92574,
+                    "startOffset": 92556,
                     "endLine": 1239,
                     "endColumn": 12,
-                    "endOffset": 92723
+                    "endOffset": 92705
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5689,10 +5689,10 @@
                 "to": {
                     "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 92728,
+                    "startOffset": 92710,
                     "endLine": 1241,
                     "endColumn": 12,
-                    "endOffset": 92877
+                    "endOffset": 92859
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5710,9 +5710,9 @@
                 "to": {
                     "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 92882,
+                    "startOffset": 92864,
                     "endColumn": 97,
-                    "endOffset": 92975
+                    "endOffset": 92957
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5729,9 +5729,9 @@
                 "to": {
                     "startLine": 1243,
                     "startColumn": 4,
-                    "startOffset": 92980,
+                    "startOffset": 92962,
                     "endColumn": 113,
-                    "endOffset": 93089
+                    "endOffset": 93071
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5748,9 +5748,9 @@
                 "to": {
                     "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 93094,
+                    "startOffset": 93076,
                     "endColumn": 93,
-                    "endOffset": 93183
+                    "endOffset": 93165
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5767,10 +5767,10 @@
                 "to": {
                     "startLine": 1245,
                     "startColumn": 4,
-                    "startOffset": 93188,
+                    "startOffset": 93170,
                     "endLine": 1246,
                     "endColumn": 12,
-                    "endOffset": 93323
+                    "endOffset": 93305
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5788,10 +5788,10 @@
                 "to": {
                     "startLine": 1247,
                     "startColumn": 4,
-                    "startOffset": 93328,
+                    "startOffset": 93310,
                     "endLine": 1248,
                     "endColumn": 12,
-                    "endOffset": 93457
+                    "endOffset": 93439
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5809,9 +5809,9 @@
                 "to": {
                     "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 93462,
+                    "startOffset": 93444,
                     "endColumn": 95,
-                    "endOffset": 93553
+                    "endOffset": 93535
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5828,9 +5828,9 @@
                 "to": {
                     "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 93558,
+                    "startOffset": 93540,
                     "endColumn": 111,
-                    "endOffset": 93665
+                    "endOffset": 93647
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5847,9 +5847,9 @@
                 "to": {
                     "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 93670,
+                    "startOffset": 93652,
                     "endColumn": 99,
-                    "endOffset": 93765
+                    "endOffset": 93747
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5866,9 +5866,9 @@
                 "to": {
                     "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 93770,
+                    "startOffset": 93752,
                     "endColumn": 115,
-                    "endOffset": 93881
+                    "endOffset": 93863
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5885,9 +5885,9 @@
                 "to": {
                     "startLine": 1253,
                     "startColumn": 4,
-                    "startOffset": 93886,
+                    "startOffset": 93868,
                     "endColumn": 95,
-                    "endOffset": 93977
+                    "endOffset": 93959
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5904,9 +5904,9 @@
                 "to": {
                     "startLine": 1254,
                     "startColumn": 4,
-                    "startOffset": 93982,
+                    "startOffset": 93964,
                     "endColumn": 111,
-                    "endOffset": 94089
+                    "endOffset": 94071
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5923,10 +5923,10 @@
                 "to": {
                     "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 94094,
+                    "startOffset": 94076,
                     "endLine": 1256,
                     "endColumn": 12,
-                    "endOffset": 94229
+                    "endOffset": 94211
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5944,10 +5944,10 @@
                 "to": {
                     "startLine": 1257,
                     "startColumn": 4,
-                    "startOffset": 94234,
+                    "startOffset": 94216,
                     "endLine": 1258,
                     "endColumn": 12,
-                    "endOffset": 94377
+                    "endOffset": 94359
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5965,10 +5965,10 @@
                 "to": {
                     "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 94382,
+                    "startOffset": 94364,
                     "endLine": 1260,
                     "endColumn": 12,
-                    "endOffset": 94541
+                    "endOffset": 94523
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -5986,10 +5986,10 @@
                 "to": {
                     "startLine": 1261,
                     "startColumn": 4,
-                    "startOffset": 94546,
+                    "startOffset": 94528,
                     "endLine": 1262,
                     "endColumn": 12,
-                    "endOffset": 94683
+                    "endOffset": 94665
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6007,10 +6007,10 @@
                 "to": {
                     "startLine": 1263,
                     "startColumn": 4,
-                    "startOffset": 94688,
+                    "startOffset": 94670,
                     "endLine": 1264,
                     "endColumn": 12,
-                    "endOffset": 94841
+                    "endOffset": 94823
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6028,10 +6028,10 @@
                 "to": {
                     "startLine": 1265,
                     "startColumn": 4,
-                    "startOffset": 94846,
+                    "startOffset": 94828,
                     "endLine": 1266,
                     "endColumn": 12,
-                    "endOffset": 94991
+                    "endOffset": 94973
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6049,9 +6049,9 @@
                 "to": {
                     "startLine": 1267,
                     "startColumn": 4,
-                    "startOffset": 94996,
+                    "startOffset": 94978,
                     "endColumn": 140,
-                    "endOffset": 95132
+                    "endOffset": 95114
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6068,10 +6068,10 @@
                 "to": {
                     "startLine": 1268,
                     "startColumn": 4,
-                    "startOffset": 95137,
+                    "startOffset": 95119,
                     "endLine": 1269,
                     "endColumn": 12,
-                    "endOffset": 95276
+                    "endOffset": 95258
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6089,9 +6089,9 @@
                 "to": {
                     "startLine": 1270,
                     "startColumn": 4,
-                    "startOffset": 95281,
+                    "startOffset": 95263,
                     "endColumn": 134,
-                    "endOffset": 95411
+                    "endOffset": 95393
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6108,10 +6108,10 @@
                 "to": {
                     "startLine": 1271,
                     "startColumn": 4,
-                    "startOffset": 95416,
+                    "startOffset": 95398,
                     "endLine": 1272,
                     "endColumn": 12,
-                    "endOffset": 95547
+                    "endOffset": 95529
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6129,10 +6129,10 @@
                 "to": {
                     "startLine": 1273,
                     "startColumn": 4,
-                    "startOffset": 95552,
+                    "startOffset": 95534,
                     "endLine": 1274,
                     "endColumn": 12,
-                    "endOffset": 95689
+                    "endOffset": 95671
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6150,10 +6150,10 @@
                 "to": {
                     "startLine": 1275,
                     "startColumn": 4,
-                    "startOffset": 95694,
+                    "startOffset": 95676,
                     "endLine": 1276,
                     "endColumn": 12,
-                    "endOffset": 95831
+                    "endOffset": 95813
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6171,9 +6171,9 @@
                 "to": {
                     "startLine": 1277,
                     "startColumn": 4,
-                    "startOffset": 95836,
+                    "startOffset": 95818,
                     "endColumn": 111,
-                    "endOffset": 95943
+                    "endOffset": 95925
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6190,9 +6190,9 @@
                 "to": {
                     "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 95948,
+                    "startOffset": 95930,
                     "endColumn": 139,
-                    "endOffset": 96083
+                    "endOffset": 96065
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6209,10 +6209,10 @@
                 "to": {
                     "startLine": 1279,
                     "startColumn": 4,
-                    "startOffset": 96088,
+                    "startOffset": 96070,
                     "endLine": 1280,
                     "endColumn": 12,
-                    "endOffset": 96229
+                    "endOffset": 96211
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6230,10 +6230,10 @@
                 "to": {
                     "startLine": 1281,
                     "startColumn": 4,
-                    "startOffset": 96234,
+                    "startOffset": 96216,
                     "endLine": 1282,
                     "endColumn": 12,
-                    "endOffset": 96373
+                    "endOffset": 96355
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6251,10 +6251,10 @@
                 "to": {
                     "startLine": 1283,
                     "startColumn": 4,
-                    "startOffset": 96378,
+                    "startOffset": 96360,
                     "endLine": 1284,
                     "endColumn": 12,
-                    "endOffset": 96511
+                    "endOffset": 96493
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6272,9 +6272,9 @@
                 "to": {
                     "startLine": 1285,
                     "startColumn": 4,
-                    "startOffset": 96516,
+                    "startOffset": 96498,
                     "endColumn": 65,
-                    "endOffset": 96577
+                    "endOffset": 96559
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6291,9 +6291,9 @@
                 "to": {
                     "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 96582,
+                    "startOffset": 96564,
                     "endColumn": 89,
-                    "endOffset": 96667
+                    "endOffset": 96649
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6310,9 +6310,9 @@
                 "to": {
                     "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 96672,
+                    "startOffset": 96654,
                     "endColumn": 79,
-                    "endOffset": 96747
+                    "endOffset": 96729
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6329,10 +6329,10 @@
                 "to": {
                     "startLine": 1288,
                     "startColumn": 4,
-                    "startOffset": 96752,
+                    "startOffset": 96734,
                     "endLine": 1289,
                     "endColumn": 12,
-                    "endOffset": 96857
+                    "endOffset": 96839
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6350,9 +6350,9 @@
                 "to": {
                     "startLine": 1290,
                     "startColumn": 4,
-                    "startOffset": 96862,
+                    "startOffset": 96844,
                     "endColumn": 77,
-                    "endOffset": 96935
+                    "endOffset": 96917
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6369,9 +6369,9 @@
                 "to": {
                     "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 96940,
+                    "startOffset": 96922,
                     "endColumn": 105,
-                    "endOffset": 97041
+                    "endOffset": 97023
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6388,9 +6388,9 @@
                 "to": {
                     "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 97046,
+                    "startOffset": 97028,
                     "endColumn": 91,
-                    "endOffset": 97133
+                    "endOffset": 97115
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6407,10 +6407,10 @@
                 "to": {
                     "startLine": 1293,
                     "startColumn": 4,
-                    "startOffset": 97138,
+                    "startOffset": 97120,
                     "endLine": 1294,
                     "endColumn": 12,
-                    "endOffset": 97255
+                    "endOffset": 97237
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6428,10 +6428,10 @@
                 "to": {
                     "startLine": 1295,
                     "startColumn": 4,
-                    "startOffset": 97260,
+                    "startOffset": 97242,
                     "endLine": 1298,
                     "endColumn": 12,
-                    "endOffset": 97426
+                    "endOffset": 97408
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6449,10 +6449,10 @@
                 "to": {
                     "startLine": 1299,
                     "startColumn": 4,
-                    "startOffset": 97431,
+                    "startOffset": 97413,
                     "endLine": 1302,
                     "endColumn": 12,
-                    "endOffset": 97591
+                    "endOffset": 97573
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6470,9 +6470,9 @@
                 "to": {
                     "startLine": 1303,
                     "startColumn": 4,
-                    "startOffset": 97596,
+                    "startOffset": 97578,
                     "endColumn": 79,
-                    "endOffset": 97671
+                    "endOffset": 97653
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6489,9 +6489,9 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 97676,
+                    "startOffset": 97658,
                     "endColumn": 99,
-                    "endOffset": 97771
+                    "endOffset": 97753
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6508,9 +6508,9 @@
                 "to": {
                     "startLine": 1305,
                     "startColumn": 4,
-                    "startOffset": 97776,
+                    "startOffset": 97758,
                     "endColumn": 89,
-                    "endOffset": 97861
+                    "endOffset": 97843
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6527,9 +6527,9 @@
                 "to": {
                     "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 97866,
+                    "startOffset": 97848,
                     "endColumn": 109,
-                    "endOffset": 97971
+                    "endOffset": 97953
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6546,9 +6546,9 @@
                 "to": {
                     "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 97976,
+                    "startOffset": 97958,
                     "endColumn": 91,
-                    "endOffset": 98063
+                    "endOffset": 98045
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6565,10 +6565,10 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 98068,
+                    "startOffset": 98050,
                     "endLine": 1309,
                     "endColumn": 12,
-                    "endOffset": 98163
+                    "endOffset": 98145
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6586,10 +6586,10 @@
                 "to": {
                     "startLine": 1310,
                     "startColumn": 4,
-                    "startOffset": 98168,
+                    "startOffset": 98150,
                     "endLine": 1311,
                     "endColumn": 12,
-                    "endOffset": 98275
+                    "endOffset": 98257
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6607,10 +6607,10 @@
                 "to": {
                     "startLine": 1312,
                     "startColumn": 4,
-                    "startOffset": 98280,
+                    "startOffset": 98262,
                     "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 98389
+                    "endOffset": 98371
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6628,10 +6628,10 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 98394,
+                    "startOffset": 98376,
                     "endLine": 1315,
                     "endColumn": 12,
-                    "endOffset": 98505
+                    "endOffset": 98487
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6649,10 +6649,10 @@
                 "to": {
                     "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 98510,
+                    "startOffset": 98492,
                     "endLine": 1317,
                     "endColumn": 12,
-                    "endOffset": 98621
+                    "endOffset": 98603
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6670,9 +6670,9 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 98626,
+                    "startOffset": 98608,
                     "endColumn": 93,
-                    "endOffset": 98715
+                    "endOffset": 98697
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6689,9 +6689,9 @@
                 "to": {
                     "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 98720,
+                    "startOffset": 98702,
                     "endColumn": 119,
-                    "endOffset": 98835
+                    "endOffset": 98817
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6708,9 +6708,9 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 98840,
+                    "startOffset": 98822,
                     "endColumn": 117,
-                    "endOffset": 98953
+                    "endOffset": 98935
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6727,10 +6727,10 @@
                 "to": {
                     "startLine": 1321,
                     "startColumn": 4,
-                    "startOffset": 98958,
+                    "startOffset": 98940,
                     "endLine": 1322,
                     "endColumn": 12,
-                    "endOffset": 99055
+                    "endOffset": 99037
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6748,10 +6748,10 @@
                 "to": {
                     "startLine": 1323,
                     "startColumn": 4,
-                    "startOffset": 99060,
+                    "startOffset": 99042,
                     "endLine": 1324,
                     "endColumn": 12,
-                    "endOffset": 99175
+                    "endOffset": 99157
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6769,10 +6769,10 @@
                 "to": {
                     "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 99180,
+                    "startOffset": 99162,
                     "endLine": 1326,
                     "endColumn": 12,
-                    "endOffset": 99297
+                    "endOffset": 99279
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6790,9 +6790,9 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 99302,
+                    "startOffset": 99284,
                     "endColumn": 81,
-                    "endOffset": 99379
+                    "endOffset": 99361
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6809,9 +6809,9 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 99384,
+                    "startOffset": 99366,
                     "endColumn": 93,
-                    "endOffset": 99473
+                    "endOffset": 99455
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6828,9 +6828,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 99478,
+                    "startOffset": 99460,
                     "endColumn": 111,
-                    "endOffset": 99585
+                    "endOffset": 99567
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6847,10 +6847,10 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 99590,
+                    "startOffset": 99572,
                     "endLine": 1332,
                     "endColumn": 12,
-                    "endOffset": 99760
+                    "endOffset": 99742
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6868,9 +6868,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 99765,
+                    "startOffset": 99747,
                     "endColumn": 115,
-                    "endOffset": 99876
+                    "endOffset": 99858
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6887,10 +6887,10 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 99881,
+                    "startOffset": 99863,
                     "endLine": 1335,
                     "endColumn": 12,
-                    "endOffset": 99974
+                    "endOffset": 99956
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6908,10 +6908,10 @@
                 "to": {
                     "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 99979,
+                    "startOffset": 99961,
                     "endLine": 1337,
                     "endColumn": 12,
-                    "endOffset": 100086
+                    "endOffset": 100068
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6929,10 +6929,10 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 100091,
+                    "startOffset": 100073,
                     "endLine": 1339,
                     "endColumn": 12,
-                    "endOffset": 100210
+                    "endOffset": 100192
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6950,9 +6950,9 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 100215,
+                    "startOffset": 100197,
                     "endColumn": 66,
-                    "endOffset": 100277
+                    "endOffset": 100259
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6969,10 +6969,10 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 100282,
+                    "startOffset": 100264,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 100403
+                    "endOffset": 100385
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -6990,9 +6990,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 100408,
+                    "startOffset": 100390,
                     "endColumn": 67,
-                    "endOffset": 100471
+                    "endOffset": 100453
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7009,10 +7009,10 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 100476,
+                    "startOffset": 100458,
                     "endLine": 1345,
                     "endColumn": 12,
-                    "endOffset": 100599
+                    "endOffset": 100581
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7030,10 +7030,10 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 100604,
+                    "startOffset": 100586,
                     "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 100743
+                    "endOffset": 100725
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7051,10 +7051,10 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 100748,
+                    "startOffset": 100730,
                     "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 100871
+                    "endOffset": 100853
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7072,9 +7072,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 100876,
+                    "startOffset": 100858,
                     "endColumn": 68,
-                    "endOffset": 100940
+                    "endOffset": 100922
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7091,9 +7091,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 100945,
+                    "startOffset": 100927,
                     "endColumn": 94,
-                    "endOffset": 101035
+                    "endOffset": 101017
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7110,9 +7110,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 101040,
+                    "startOffset": 101022,
                     "endColumn": 114,
-                    "endOffset": 101150
+                    "endOffset": 101132
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7129,9 +7129,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 101155,
+                    "startOffset": 101137,
                     "endColumn": 112,
-                    "endOffset": 101263
+                    "endOffset": 101245
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7148,9 +7148,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 101268,
+                    "startOffset": 101250,
                     "endColumn": 98,
-                    "endOffset": 101362
+                    "endOffset": 101344
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7167,9 +7167,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 101367,
+                    "startOffset": 101349,
                     "endColumn": 108,
-                    "endOffset": 101471
+                    "endOffset": 101453
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7186,9 +7186,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 101476,
+                    "startOffset": 101458,
                     "endColumn": 110,
-                    "endOffset": 101582
+                    "endOffset": 101564
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7205,9 +7205,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 101587,
+                    "startOffset": 101569,
                     "endColumn": 110,
-                    "endOffset": 101693
+                    "endOffset": 101675
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7224,9 +7224,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 101698,
+                    "startOffset": 101680,
                     "endColumn": 100,
-                    "endOffset": 101794
+                    "endOffset": 101776
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7243,9 +7243,9 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 101799,
+                    "startOffset": 101781,
                     "endColumn": 104,
-                    "endOffset": 101899
+                    "endOffset": 101881
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7262,10 +7262,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 101904,
+                    "startOffset": 101886,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 102011
+                    "endOffset": 101993
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7283,10 +7283,10 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 102016,
+                    "startOffset": 101998,
                     "endLine": 1363,
                     "endColumn": 12,
-                    "endOffset": 102141
+                    "endOffset": 102123
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7304,9 +7304,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 102146,
+                    "startOffset": 102128,
                     "endColumn": 90,
-                    "endOffset": 102232
+                    "endOffset": 102214
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7323,9 +7323,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 102237,
+                    "startOffset": 102219,
                     "endColumn": 122,
-                    "endOffset": 102355
+                    "endOffset": 102337
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7342,10 +7342,10 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 102360,
+                    "startOffset": 102342,
                     "endLine": 1367,
                     "endColumn": 12,
-                    "endOffset": 102467
+                    "endOffset": 102449
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7363,10 +7363,10 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 102472,
+                    "startOffset": 102454,
                     "endLine": 1369,
                     "endColumn": 12,
-                    "endOffset": 102583
+                    "endOffset": 102565
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7384,10 +7384,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 102588,
+                    "startOffset": 102570,
                     "endLine": 1371,
                     "endColumn": 12,
-                    "endOffset": 102691
+                    "endOffset": 102673
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7405,10 +7405,10 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 102696,
+                    "startOffset": 102678,
                     "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 102791
+                    "endOffset": 102773
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7426,10 +7426,10 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 102796,
+                    "startOffset": 102778,
                     "endLine": 1375,
                     "endColumn": 12,
-                    "endOffset": 102909
+                    "endOffset": 102891
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7447,10 +7447,10 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 102914,
+                    "startOffset": 102896,
                     "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 103013
+                    "endOffset": 102995
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7468,10 +7468,10 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 103018,
+                    "startOffset": 103000,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 103117
+                    "endOffset": 103099
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7489,10 +7489,10 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 103122,
+                    "startOffset": 103104,
                     "endLine": 1381,
                     "endColumn": 12,
-                    "endOffset": 103243
+                    "endOffset": 103225
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7510,9 +7510,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 103248,
+                    "startOffset": 103230,
                     "endColumn": 87,
-                    "endOffset": 103331
+                    "endOffset": 103313
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7529,9 +7529,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 103336,
+                    "startOffset": 103318,
                     "endColumn": 89,
-                    "endOffset": 103421
+                    "endOffset": 103403
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7548,9 +7548,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 103426,
+                    "startOffset": 103408,
                     "endColumn": 83,
-                    "endOffset": 103505
+                    "endOffset": 103487
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7567,9 +7567,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 103510,
+                    "startOffset": 103492,
                     "endColumn": 53,
-                    "endOffset": 103559
+                    "endOffset": 103541
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7586,9 +7586,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 103564,
+                    "startOffset": 103546,
                     "endColumn": 121,
-                    "endOffset": 103681
+                    "endOffset": 103663
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7605,9 +7605,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 103686,
+                    "startOffset": 103668,
                     "endColumn": 105,
-                    "endOffset": 103787
+                    "endOffset": 103769
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7624,9 +7624,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 103792,
+                    "startOffset": 103774,
                     "endColumn": 109,
-                    "endOffset": 103897
+                    "endOffset": 103879
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7643,9 +7643,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 103902,
+                    "startOffset": 103884,
                     "endColumn": 83,
-                    "endOffset": 103981
+                    "endOffset": 103963
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
@@ -7662,9 +7662,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 103986,
+                    "startOffset": 103968,
                     "endColumn": 119,
-                    "endOffset": 104101
+                    "endOffset": 104083
                 },
                 "from": {
                     "file": "C:\\Users\\Albert\\Documents\\Programming imports\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values\\values.xml",
