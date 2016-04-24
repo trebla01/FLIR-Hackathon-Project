@@ -49,6 +49,7 @@ import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.EnumSet;
 import java.util.Locale;
@@ -73,14 +74,26 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
     private int deviceRotation= 0;
     private OrientationEventListener orientationEventListener;
 
-
     private volatile Device flirOneDevice;
     private FrameProcessor frameProcessor;
+    private FrameProcessor thermalFrameProcessor;
 
     private String lastSavedPath;
 
-    private int screenWidth = 0;
-    private int screenHeight = 0;
+    private int screenWidth;
+    private int screenHeight;
+
+    public float startX;
+    public float startY;
+    public float endX;
+    public float endY;
+
+    private Bitmap thermalBitmap = null;
+    public RenderedImage currentRenderedImage;
+
+    ArrayList<Double> temperatureData = new ArrayList<>();
+
+    long lastRecording;
 
     private Device.TuningState currentTuningState = Device.TuningState.Unknown;
     // Device Delegate methods
@@ -247,19 +260,28 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
 
         if (currentTuningState != Device.TuningState.InProgress){
             frameProcessor.processFrame(frame);
+            thermalFrameProcessor.processFrame(frame);
         }
     }
 
-    private Bitmap thermalBitmap = null;
-    public RenderedImage currentRenderedImage;
-
     // Frame Processor Delegate method, will be called each time a rendered frame is produced
     public void onFrameProcessed(final RenderedImage renderedImage){
+        if (renderedImage.imageType() == RenderedImage.ImageType.ThermalRadiometricKelvinImage) {
+            if(System.currentTimeMillis() - lastRecording >= 1000) {
+                lastRecording = System.currentTimeMillis();
+                currentRenderedImage = renderedImage;
+                temperatureData.add(averageTemperature());
+
+                for(int i = 0; i < temperatureData.size(); i++){
+                    System.out.println("Time " + i + " s: " + temperatureData.get(i) + " degrees celsius");
+                }
+            }
+            return;
+        }
+
+
         thermalBitmap = renderedImage.getBitmap();
         updateThermalImageView(thermalBitmap);
-
-        currentRenderedImage = renderedImage;
-
 
         /*
         Capture this image if requested.
@@ -559,6 +581,13 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         screenWidth = size.x;
         screenHeight = size.y;
 
+        startX = 0;
+        endX = screenWidth;
+        startY = 0;
+        endY = screenHeight;
+
+        lastRecording = System.currentTimeMillis();
+
         setContentView(R.layout.activity_preview);
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
@@ -566,18 +595,20 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         final View contentView = findViewById(R.id.fullscreen_content);
 
 
-        String[] imageTypeNames = new String[RenderedImage.ImageType.values().length];
+        String[] imageTypeNames = new String[RenderedImage.ImageType.values().length - 1]; //do not render the kelvin choice
         // Massage the type names for display purposes
-        for (RenderedImage.ImageType t : RenderedImage.ImageType.values()){
+        for(int i = 0; i < 5; i++){ //do not loop through kelvin temperatures
+            RenderedImage.ImageType t = RenderedImage.ImageType.values()[i];
             String name = t.name().replaceAll("(RGBA)|(YCbCr)|(8)","").replaceAll("([a-z])([A-Z])", "$1 $2");
-
             if (name.contains("YCbCr888")){
                 name = name.replace("YCbCr888", "Aligned");
             }
             imageTypeNames[t.ordinal()] = name;
         }
+
         RenderedImage.ImageType defaultImageType = RenderedImage.ImageType.BlendedMSXRGBA8888Image;
         frameProcessor = new FrameProcessor(this, this, EnumSet.of(defaultImageType));
+        thermalFrameProcessor = new FrameProcessor(this, this, EnumSet.of(RenderedImage.ImageType.ThermalRadiometricKelvinImage));
 
         ListView imageTypeListView = ((ListView)findViewById(R.id.imageTypeListView));
         imageTypeListView.setAdapter(new ArrayAdapter<>(this,R.layout.emptytextview,imageTypeNames));
@@ -588,9 +619,10 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
                 if (frameProcessor != null) {
 
                     Toast.makeText(getApplicationContext(), "Imagetype changed", Toast.LENGTH_SHORT).show();
-
                     RenderedImage.ImageType imageType = RenderedImage.ImageType.values()[position];
+
                     frameProcessor.setImageTypes(EnumSet.of(imageType));
+
                     if (imageType.isColorized()){
                         findViewById(R.id.paletteListView).setVisibility(View.VISIBLE);
                     }else{
@@ -698,6 +730,7 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
             public boolean onScale(ScaleGestureDetector detector) {
                 Log.d("ZOOM", "zoom ongoing, scale: " + detector.getScaleFactor());
                 frameProcessor.setMSXDistance(detector.getScaleFactor());
+                thermalFrameProcessor.setMSXDistance(detector.getScaleFactor());
                 return false;
             }
         });
@@ -757,11 +790,6 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
         }
     };
 
-    public float startX = 0;
-    public float startY =0;
-    public float endX = 0;
-    public float endY = 0;
-
     View.OnTouchListener mBoxAverageListener = new View.OnTouchListener() {
         @Override
         public boolean onTouch(View view, MotionEvent event) {
@@ -771,8 +799,6 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
                 case MotionEvent.ACTION_DOWN:
                     startX = event.getX();
                     startY = event.getY();
-                    String textToShow = String.valueOf(event.getX()) + "x" + String.valueOf(event.getY()) + "y";
-                    Toast.makeText(getApplicationContext(), textToShow, Toast.LENGTH_SHORT).show();
                     break;
                 case MotionEvent.ACTION_MOVE:
                     break;
@@ -793,37 +819,6 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
 
                     findViewById(R.id.image_clicked_button).setVisibility(View.GONE);
 
-                    //height = 320, width = 240
-                    int scaledStartX = (int) startX * 240 / screenWidth;
-                    int scaledStartY = (int) startY * 320 / screenHeight;
-                    int scaledEndX = (int) endX * 240 / screenWidth;
-                    int scaledEndY = (int) endY * 320 / screenHeight;
-
-                    int totalTemp = 0;
-                    short[] shortPixels = new short[currentRenderedImage.pixelData().length / 2];
-                    ByteBuffer.wrap(currentRenderedImage.pixelData()).order(ByteOrder.LITTLE_ENDIAN).asShortBuffer().get(shortPixels);
-                    for(int x = (int) scaledStartX; x < (int) scaledEndX; x++){
-                        for(int y = (int) scaledStartY; y < (int) scaledEndY; y++){
-                            int step = currentRenderedImage.width();
-                            totalTemp += (int) shortPixels[x + (y*step)];
-                        }
-                    }
-                    double averageTemp = 0;
-                    averageTemp = (double) totalTemp / (double)((scaledEndX - scaledStartX)*(scaledEndY - scaledStartY));
-                    double averageC = (averageTemp / 100) - 273.15;
-
-                    /*
-                    double averageTemp = 0;
-                    short[] shortPixels = new short[currentRenderedImage.pixelData().length / 2];
-                    ByteBuffer.wrap(currentRenderedImage.pixelData()).order(ByteOrder.LITTLE_ENDIAN).asShortBuffer().get(shortPixels);
-                    for (int i = 0; i < shortPixels.length; i++) {
-                        averageTemp += (((int)shortPixels[i]) - averageTemp) / ((double) i + 1);
-                    }
-                    final double averageC = (averageTemp / 100) - 273.15;*/
-
-                    textToShow = String.valueOf("Average temperature in selected area: " + averageC);
-                    Toast.makeText(getApplicationContext(), textToShow, Toast.LENGTH_SHORT).show();
-
                     break;
                 case MotionEvent.ACTION_CANCEL:
                     break;
@@ -833,6 +828,34 @@ public class PreviewActivity extends Activity implements Device.Delegate, FrameP
             return false;
 
         }
+    };
+
+    public double averageTemperature(){
+        //height = 320, width = 240
+        int scaledStartX = (int) startX * 240 / screenWidth;
+        int scaledStartY = (int) startY * 320 / screenHeight;
+        int scaledEndX = (int) endX * 240 / screenWidth;
+        int scaledEndY = (int) endY * 320 / screenHeight;
+
+        long totalTemp = 0;
+        short[] shortPixels = new short[currentRenderedImage.pixelData().length / 2];
+        ByteBuffer.wrap(currentRenderedImage.pixelData()).order(ByteOrder.LITTLE_ENDIAN).asShortBuffer().get(shortPixels);
+        for(int x = (int) scaledStartX; x < (int) scaledEndX; x++){
+            for(int y = (int) scaledStartY; y < (int) scaledEndY; y++){
+                int step = currentRenderedImage.width();
+                totalTemp += shortPixels[x + (y*step)];
+            }
+        }
+        double averageTemp = 0;
+        averageTemp = (double) totalTemp / (double)((scaledEndX - scaledStartX)*(scaledEndY - scaledStartY));
+        double averageC = (averageTemp / 100) - 273.15;
+
+        //String tempToShow = String.valueOf("Average temperature in selected area: " + averageC);
+        //Toast.makeText(getApplicationContext(), tempToShow, Toast.LENGTH_SHORT).show();
+
+        System.out.println("Average temperature in celsius: " + averageC);
+
+        return averageC;
     };
 
     Handler mHideHandler = new Handler();
